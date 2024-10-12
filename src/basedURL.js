@@ -1,1 +1,0 @@
-export const basedURL = "https://gateway.scan-interfax.ru";
