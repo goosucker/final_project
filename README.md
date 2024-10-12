@@ -1,8 +1,5 @@
-# React + Vite
+# Проект компании "СКАН"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Компания «СКАН» разработала новый API для поиска публикаций о компании (юридическом лице) в средствах массовой информации по ИНН. Серверная часть приложения уже готова, ваша задача — разработать клиентскую часть.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Работа выполнена на React.
