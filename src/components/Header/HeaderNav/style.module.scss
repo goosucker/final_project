@@ -1,0 +1,28 @@
+@media screen and (min-width: 1000px) {
+    .header__nav {
+        display: flex;
+        gap: 49px;
+        margin: 0 auto;
+    }
+    .header__nav_link {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 999px) {
+    .header__nav {
+        display: none;
+    }
+    .header__nav_lw {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin-top: 138px;
+        align-items: center;
+    }
+    .header__nav_link_lw {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}

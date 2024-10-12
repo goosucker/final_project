@@ -1,0 +1,130 @@
+@media screen and (min-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 24px 3.75rem 0 3.75rem;
+    }
+    .main__firstblock {
+        display: flex;
+        flex-direction: column;
+        background-image: url("/img/first_main_img.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 10%;
+        background-size: 615px;
+        height: 620px;
+    }
+    #main__text {
+        line-height: 24.2px;
+        letter-spacing: 0.01em;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        max-width: 39%;
+    }
+    #buttonbox {
+        max-width: 335px;
+        margin-top: 70px;
+    }
+    .button {
+        background-color: #5970FF;
+        height: 59px;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        max-width: 335px;
+        margin-top: 70px;
+        &:disabled {
+            background-color: #D2D2D2;
+            cursor: default;
+            color: #000000;
+            max-width: 335px;
+            margin-top: 70px;
+        }
+    }
+    .main__whyweheading {
+        margin-bottom: 30px;
+    }
+    .main__img {
+        height: 575.52px;
+        width: 100%;
+        background-image: url("/img/main_img.svg");
+        background-repeat: no-repeat;
+        margin-top: 55px;
+    }
+    .main__tarrifheading {
+        margin-top: 107.48px
+    }
+    .main__ourtarrifs {
+        margin: 66px auto 0 auto;
+        display: flex;
+        gap: 2vw;
+    }     
+}
+@media screen and (min-width: 375px) and (max-width: 999px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 14px 0 14px;
+    }
+    .main__firstblock {
+        display: flex;
+        flex-direction: column;
+        background-image: url("/img/first_main_img.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0% 93%;
+        height: 733.99px;
+    }
+    #main__text {
+        line-height: 24.2px;
+        letter-spacing: 0.01em;
+        font-size: 18px;
+        margin: 19px 0 0 0;
+    }
+    #buttonbox {
+        max-width: 335px;
+        margin-top: 32px;
+    }
+    .button {
+        background-color: #5970FF;
+        height: 59px;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        max-width: 335px;
+        margin-top: 70px;
+        &:disabled {
+            background-color: #D2D2D2;
+            cursor: default;
+            color: #000000;
+            max-width: 335px;
+            margin-top: 70px;
+        }
+    }
+    .main__whyweheading {
+        margin-bottom: 10px;
+        max-width: 274px;
+    }
+    .main__img {
+        height: 392px;
+        width: 100%;
+        background-image: url("/img/main_img.svg");
+        background-repeat: no-repeat;
+        margin-top: 75px;
+        overflow: hidden;
+        background-size: 250%;
+    }
+    .main__tarrifheading {
+        margin-top: 79px;
+    }
+    .main__ourtarrifs {
+        margin: 37px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+    }
+    
+}

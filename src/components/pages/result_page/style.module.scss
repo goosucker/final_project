@@ -1,0 +1,80 @@
+@media screen and (min-width: 1000px) {
+    .first_heading {
+        max-width: 60%;
+        padding-top: 44px;
+    }
+    .main {
+        margin: 25px 3.75rem 64px 3.75rem;
+        background-image: url('/img/result_img.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
+    .text {
+        margin-top: 36px;
+        max-width: 30%;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.2px;
+        letter-spacing: 0.02em;
+    }
+    .second_heading, .third_heading {
+        font-family: 'Ferry';
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        margin: 127px 0 17px 0;
+    }
+    .found_text {
+        font-weight: 400;
+        line-height: 21.78px;
+        letter-spacing: 0.02em;
+        color: #949494;
+        font-size: 18px;
+    }
+    .third_heading {
+        margin: 107px 0 58px 0;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 999px) {
+    .first_heading {
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 33.6px;
+        letter-spacing: 0.01em;
+        margin-top: 20px;
+    }
+    .main {
+        margin: 20px 14px 0 14px;
+        background-image: url('/img/result_img.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 200px;
+        background-size: 100%;
+    }
+    .text {
+        margin-top: 21px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.2px;
+        letter-spacing: 0.02em;
+        height: 360px;
+    }
+    .second_heading, .third_heading {
+        font-family: 'Ferry';
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        margin: 0px 0px 10px 0;
+    }
+    .found_text {
+        font-weight: 400;
+        line-height: 21.78px;
+        letter-spacing: 0.02em;
+        color: #949494;
+        font-size: 18px;
+    }
+    .third_heading {
+        margin: 57px 0 34px 0;
+    }
+}
